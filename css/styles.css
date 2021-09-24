@@ -1,0 +1,62 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --gray-color: #ccc;
+    --text-color: #333;
+    --primary-color: #2768d9;
+  
+    --height-navbar: 76px;
+    --height-player: 90px;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html {
+    font-family: "Open Sans", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    scroll-behavior: smooth;
+  }
+  body{
+      padding: 0px;
+      margin: 0px;
+  }
+  .text-heading{
+      text-align: center;
+      margin-top: 20px;
+      font-size: 35px;
+  }
+  .form-customer{
+    width: 600px;
+    border: 1px solid #ccc;
+    margin: 25px;
+    padding: 10px;
+}
+.info-customer{
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.form-customer label{
+    width: 100px;
+    float: left;
+}
+.form-customer input[type="text"],button{
+    margin-bottom: 10px;
+    width: 200px;
+    padding: 5px;
+}
+ .form-customer{
+    text-align: center;
+
+}
+.error{
+    color: red;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+}
